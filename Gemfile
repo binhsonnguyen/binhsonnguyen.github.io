@@ -22,3 +22,6 @@ gem "jekyll-theme-minimal"
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
+
+# Minima theme
+gem "minima"

@@ -12,5 +12,5 @@ PS: Dự là tháng 8 này anh ấy sẽ làm cha.
 [pink-martini]: https://www.google.com/search?q=pink+martini
 [chet-baker]: https://www.google.com/search?q=chet+baker
 [rolleicord]: https://www.google.com/search?q=rolleicord
-[cosmos]: https://www.google.com/search?q=cosmos+carl+sagan
+[cosmos]: https://www.google.com/search?q=v%C5%A9+tr%E1%BB%A5+carl+sagan
 [carl-sagan]: https://www.google.com/search?q=carl+sagan
