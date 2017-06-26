@@ -3,6 +3,7 @@ layout: post
 title:  "Tái cấu trúc"
 date:   2017-06-23
 tags: [refactoring development code]
+comments: true
 ---
 
 TL'DR

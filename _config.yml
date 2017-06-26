@@ -13,3 +13,6 @@ theme: minima
 
 # Liquid
 error_mode: strict
+
+disqus:
+  shortname: binhsonnguyen
