@@ -5,11 +5,9 @@ description:
 baseurl: ""
 url: "http://binhsonnguyen.com"
 github_username: binhsonnguyen
-emojilock_id: 💥🚿🎬🐴🐸🍑🐌💰🐌🏁⌛️⚽️⚓️🙏💧💘👔💫🔉🍺🌹💉👫👽💢🍐🎃🚦🚫🐕🔭🅰
 
 # Build settings
 markdown: kramdown
-theme: minima
 
 # Liquid
 error_mode: strict
