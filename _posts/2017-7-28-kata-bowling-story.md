@@ -5,10 +5,10 @@ date:       2017-07-28
 tags:       [codegym kata]
 ---
 
-[Chú Bob][uncle-bob] có làm một cái slide về con đường để giải BowlingGame kata [ở đây]
+[Bác Bob][uncle-bob] có làm một cái slide về con đường để giải BowlingGame kata [ở đây]
 [kata-bowling].
 
-Không quan trọng bài toán là gì, chú cũng nói về câu chuyện của các kata. Sau đây mình xin mạn phép truyền đạt những gì chú đã nói.
+Không quan trọng bài toán là gì, bác cũng nói về câu chuyện của các kata. Sau đây mình xin mạn phép truyền đạt những gì bác đã nói.
 
 Ý nghĩa của luyện quyền là cho quen. Luyện là luyện hình ý của quyền, không phải là luyện sức phá hoại. Sự phá hoại không nằm ở sức, mà là do từng tích luỹ nhỏ một trên quỹ tích của cơ thể mang đến.
 
@@ -18,7 +18,7 @@ Xem quyền, xem chiết chiêu, xong luyện quyền, luyện chiết chiêu, l
 
 [Michael Feathers][michael-feathers] dã suy nghĩ về khái niệm "tầm nhìn thiết kế" trong một thời gian dài. Những người thiết kế tốt có một thứ gọi là tầm nhìn để phục vụ việc thiết kế. Họ chuyển đổi một mớ những yêu cầu thành một thiết kế với rất ít hoặc hầu như không cần ráng sức gì cả. Giống như là đầu óc họ được thiết kế để dịch yêu cầu thành thiết kế. Họ còn rất dễ nhận ra, hay là "cảm giác được" một thiết kế đang tốt hay tệ. Họ bằng cách nào đó thực sự biết "chỗ này chỗ kia thì dùng thiết kế này thiết kế kia là tốt hơn".
 
-Có thể (nghĩa là chú Bob có "cảm giác"), rằng cách tốt nhất để có được "tầm nhìn thiết kế" là tìm ai đó có nó, đặt tay lên vai họ, đặt mắt đằng sau họ, dõi theo xuyên suốt lúc họ đang thiết kế cái gì đó.
+Có thể (nghĩa là bác Bob có "cảm giác"), rằng cách tốt nhất để có được "tầm nhìn thiết kế" là tìm ai đó có nó, đặt tay lên vai họ, đặt mắt đằng sau họ, dõi theo xuyên suốt lúc họ đang thiết kế cái gì đó.
 
 Học quyền cũng là một cách tốt để đạt tới "tầm nhìn" đó.
 
