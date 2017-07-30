@@ -27,27 +27,27 @@ JOIN THM ALL
 
 Để hiểu việc sql dựa vào điều kiện join để cho ra kết quả như thế nào, chúng ta sẽ quan sát tình huống sau đây. Ta có `table_a` và `table_b`. Điều kiện join sử dụng liên kết giữa cột table_a.c3 và table_b.c2.
 
-<img src="/resource/how-it-join/01.jpg" width="444px" height="114px" align="center" >
+<img src="/resource/posts/2017-07-30-how-it-join/01.jpg" width="444px" height="114px" align="center" >
 
 Ta đẩy hai cột trong điều kiện join về hai phía như thế này để dễ hình dung hơn các bước sau:
 
-<img src="/resource/how-it-join/02.jpg" width="444px" height="114px" align="center" >
+<img src="/resource/posts/2017-07-30-how-it-join/02.jpg" width="444px" height="114px" align="center" >
 
 SQL sẽ dính hai bảng lại với nhau để tạo thành bảng kết quả, những cặp row nào thoả mãn điều kiện join thì sẽ đi chung với nhau, không thì thôi kệ
 
-<img src="/resource/how-it-join/03.jpg" width="444px" height="115px" align="center" >
+<img src="/resource/posts/2017-07-30-how-it-join/03.jpg" width="444px" height="115px" align="center" >
 
 ...và thành thế này:
 
-<img src="/resource/how-it-join/04.jpg" width="389px" height="163px" align="center" >
+<img src="/resource/posts/2017-07-30-how-it-join/04.jpg" width="389px" height="163px" align="center" >
 
 Giờ thì rất dễ để tưởng tượng, nếu phép `JOIN` là mặc định, tức là tương đương `INNER JOIN`, thì chỉ những row thoả điều kiện được đánh dấu được đưa vào bảng kết quả:
 
-<img src="/resource/how-it-join/05.jpg" width="389px" height="97px" align="center" >
+<img src="/resource/posts/2017-07-30-how-it-join/05.jpg" width="389px" height="97px" align="center" >
 
 Nếu là `LEFT JOIN`, thì những row nào còn lại của bảng bên trái, cũng sẽ được đưa vào bảng kết quả, đương nhiên những row đó không mang theo được tí dữ liệu nào của bảng bên phải.
 
-<img src="/resource/how-it-join/06.jpg" width="389px" height="147px" align="center" >
+<img src="/resource/posts/2017-07-30-how-it-join/06.jpg" width="389px" height="147px" align="center" >
 
 Chuyện tương tự cũng xảy ra với `RIGHT JOIN`.
 
