@@ -23,5 +23,3 @@ gem "jekyll-theme-minimal"
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
 
-# Minima theme
-gem "minima"
