@@ -2,7 +2,6 @@
 layout:     post
 title:      Nó đã JOIN như thế nào?
 date:       2017-07-30
-tags:       [codegym kata]
 ---
 
 Tôi vừa tìm ra một cách truyền đạt đơn giản để giải thích về các thể loại `JOIN` của `SQL`. Sau đây là phần trình bày.
