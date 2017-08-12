@@ -7,279 +7,279 @@
   background: #002B36;
   color: #93A1A1;
 
+  /* Comment */
   .c {
     color: #586E75;
   }
 
+  /* Error */
+  /* Escape */
+  /* Generic */
   .err, .esc, .g {
     color: #93A1A1;
   }
 
+  /* Keyword */
   .k {
     color: #719e07;
   }
 
+  /* Literal */
+  /* Name */
   .l, .n {
     color: #93A1A1;
   }
 
+  /* Operator */
   .o {
     color: #719e07;
   }
 
+  /* Other */
   .x {
     color: #CB4B16;
   }
 
+  /* Punctuation */
   .p {
     color: #93A1A1;
   }
 
+  /* Comment.Hashbang */
+  /* Comment.Multiline */
   .ch, .cm {
     color: #586E75;
   }
 
+  /* Comment.Preproc */
   .cp {
     color: #719e07;
   }
 
+  /* Comment.PreprocFile */
+  /* Comment.Single */
   .cpf, .c1 {
     color: #586E75;
   }
 
+  /* Comment.Special */
   .cs {
     color: #719e07;
   }
 
+  /* Generic.Deleted */
   .gd {
     color: #DC322F;
   }
 
+  /* Generic.Emph */
   .ge {
     color: #93A1A1;
     font-style: italic;
   }
 
+  /* Generic.Error */
   .gr {
     color: #DC322F;
     font-weight: bold;
   }
 
+  /* Generic.Heading */
   .gh {
     color: #CB4B16;
   }
 
+  /* Generic.Inserted */
   .gi {
     color: #719e07;
   }
 
+  /* Generic.Output */
+  /* Generic.Prompt */
   .go, .gp {
     color: #93A1A1;
   }
 
+  /* Generic.Strong */
   .gs {
     color: #93A1A1;
     font-weight: bold;
   }
 
+  /* Generic.Subheading */
   .gu {
     color: #268BD2;
   }
 
+  /* Generic.Traceback */
   .gt {
     color: #93A1A1;
   }
 
+  /* Keyword.Constant */
   .kc {
     color: #CB4B16;
   }
 
+  /* Keyword.Declaration */
   .kd {
     color: #268BD2;
   }
 
+  /* Keyword.Namespace */
+  /* Keyword.Pseudo */
   .kn, .kp {
     color: #719e07;
   }
 
+  /* Keyword.Reserved */
   .kr {
     color: #268BD2;
   }
 
+  /* Keyword.Type */
   .kt {
     color: #DC322F;
   }
 
+  /* Literal.Date */
   .ld {
     color: #93A1A1;
   }
 
+  /* Literal.Number */
+  /* Literal.String */
   .m, .s {
     color: #2AA198;
   }
 
+  /* Name.Attribute */
   .na {
     color: #93A1A1;
   }
 
+  /* Name.Builtin */
   .nb {
     color: #B58900;
   }
 
+  /* Name.Class */
   .nc {
     color: #268BD2;
   }
 
+  /* Name.Constant */
   .no {
     color: #CB4B16;
   }
 
+  /* Name.Decorator */
   .nd {
     color: #268BD2;
   }
 
+  /* Name.Entity */
+  /* Name.Exception */
   .ni, .ne {
     color: #CB4B16;
   }
 
+  /* Name.Function */
   .nf {
     color: #268BD2;
   }
+
+  /* Name.Label */
+  /* Name.Namespace */
+  /* Name.Other */
+  /* Name.Property */
 
   .nl, .nn, .nx, .py {
     color: #93A1A1;
   }
 
+  /* Name.Tag */
+  /* Name.Variable */
   .nt, .nv {
     color: #268BD2;
   }
 
+  /* Operator.Word */
   .ow {
     color: #719e07;
   }
 
+  /* Text.Whitespace */
   .w {
     color: #93A1A1;
   }
 
+  /* Literal.Number.Bin */
+  /* Literal.Number.Float */
+  /* Literal.Number.Hex */
+  /* Literal.Number.Integer */
+  /* Literal.Number.Oct */
   .mb, .mf, .mh, .mi, .mo {
     color: #2AA198;
   }
 
+  /* Literal.String.Backtick */
   .sb {
     color: #586E75;
   }
 
+  /* Literal.String.Char */
   .sc {
     color: #2AA198;
   }
 
+  /* Literal.String.Doc */
   .sd {
     color: #93A1A1;
   }
 
+  /* Literal.String.Double */
   .s2 {
     color: #2AA198;
   }
 
+  /* Literal.String.Escape */
   .se {
     color: #CB4B16;
   }
 
+  /* Literal.String.Heredoc */
   .sh {
     color: #93A1A1;
   }
 
+  /* Literal.String.Interpol */
+  /* Literal.String.Other */
   .si, .sx {
     color: #2AA198;
   }
 
+  /* Literal.String.Regex */
   .sr {
     color: #DC322F;
   }
 
+  /* Literal.String.Single */
+  /* Literal.String.Symbol */
   .s1, .ss {
     color: #2AA198;
   }
 
+  /* Name.Builtin.Pseudo */
+  /* Name.Variable.Class */
+  /* Name.Variable.Global */
+  /* Name.Variable.Instance */
   .bp, .vc, .vg, .vi {
     color: #268BD2;
   }
 
+  /* Literal.Number.Integer.Long */
   .il {
     color: #2AA198;
   }
 }
-
-/* Comment */
-/* Error */
-/* Escape */
-/* Generic */
-/* Keyword */
-/* Literal */
-/* Name */
-/* Operator */
-/* Other */
-/* Punctuation */
-/* Comment.Hashbang */
-/* Comment.Multiline */
-/* Comment.Preproc */
-/* Comment.PreprocFile */
-/* Comment.Single */
-/* Comment.Special */
-/* Generic.Deleted */
-/* Generic.Emph */
-/* Generic.Error */
-/* Generic.Heading */
-/* Generic.Inserted */
-/* Generic.Output */
-/* Generic.Prompt */
-/* Generic.Strong */
-/* Generic.Subheading */
-/* Generic.Traceback */
-/* Keyword.Constant */
-/* Keyword.Declaration */
-/* Keyword.Namespace */
-/* Keyword.Pseudo */
-/* Keyword.Reserved */
-/* Keyword.Type */
-/* Literal.Date */
-/* Literal.Number */
-/* Literal.String */
-/* Name.Attribute */
-/* Name.Builtin */
-/* Name.Class */
-/* Name.Constant */
-/* Name.Decorator */
-/* Name.Entity */
-/* Name.Exception */
-/* Name.Function */
-/* Name.Label */
-/* Name.Namespace */
-/* Name.Other */
-/* Name.Property */
-/* Name.Tag */
-/* Name.Variable */
-/* Operator.Word */
-/* Text.Whitespace */
-/* Literal.Number.Bin */
-/* Literal.Number.Float */
-/* Literal.Number.Hex */
-/* Literal.Number.Integer */
-/* Literal.Number.Oct */
-/* Literal.String.Backtick */
-/* Literal.String.Char */
-/* Literal.String.Doc */
-/* Literal.String.Double */
-/* Literal.String.Escape */
-/* Literal.String.Heredoc */
-/* Literal.String.Interpol */
-/* Literal.String.Other */
-/* Literal.String.Regex */
-/* Literal.String.Single */
-/* Literal.String.Symbol */
-/* Name.Builtin.Pseudo */
-/* Name.Variable.Class */
-/* Name.Variable.Global */
-/* Name.Variable.Instance */
-/* Literal.Number.Integer.Long */
