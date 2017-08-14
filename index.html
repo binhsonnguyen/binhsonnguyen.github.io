@@ -4,7 +4,38 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <!--<h1 class="page-heading">Posts</h1>-->
+  <div class="push-l-45">
+<pre class="mono">
+------------------------------------------
+<span id="cowsay-output">
+</span>
+------------------------------------------
+    \   ^__^
+     \  (oo)\_______
+        (__)\       )\/\
+            ||----w |
+            ||     ||
+</pre>
+  </div>
+
+  <script type="application/javascript">
+      {%
+          include
+          scripts / say.js %
+      }
+
+      let el = document.getElementById('cowsay-output');
+      el.innerText = '';
+      el.innerHTML = '';
+      let l = 0;
+      cowsay(fortune()).split('\n').forEach(line => {
+          let span = document.createElement('span');
+          span.innerText = line;
+          el.appendChild(span);
+          el.appendChild(document.createElement('br'));
+      });
+  </script>
 
   <ul class="post-list">
     {% for post in site.posts %}
