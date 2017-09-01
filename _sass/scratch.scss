@@ -5,6 +5,10 @@ $content-width:    800px !default;
 $on-palm:          600px !default;
 $on-laptop:        800px !default;
 
+body {
+  font-size: 22px;
+}
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
@@ -30,4 +34,4 @@ $on-laptop:        800px !default;
 .push-l-45 {
   margin-left: 45px;
 }
-@import "highlighters/solarized_dark";
+@import "highlighters/default";
