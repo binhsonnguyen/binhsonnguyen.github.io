@@ -4,7 +4,7 @@ title:      Những luật dở người của CodeRetreat - Part 2
 date:       2017-09-05
 ---
 
-Đây là một bài tôi viết cộng tác cho chiến dịch truyền thông của Autumn Code Retreat 2017. Chỉ có 
+Đây là một bài tôi viết cộng tác cho chiến dịch truyền thông của [Autumn Code Retreat 2017][autumn-code-retreat]. Chỉ có 
 part 2, vì những phần còn lại do các giáo sư khác viết :-)
 
 Chỉ dùng text-editor, chỉ dùng giấy?
@@ -12,7 +12,7 @@ Chỉ dùng text-editor, chỉ dùng giấy?
 
 Cũng như *không dùng chuột*, hai hoạt động trên là của một nhóm hoạt động mà trong đó nhà phát 
 triển bị tước mất các công cụ làm việc quen thuộc, nói trắng ra, là những công cụ mà bình thường, 
-nhà phát triển vẫn quen dựa dẫm vào. Chuột, IDE, rồi thì cả bàn phím (nhưng viết mã mà không có 
+nhà phát triển vẫn quen **dựa dẫm** vào. Chuột, IDE, rồi thì cả bàn phím (nhưng viết mã mà không có 
 bàn phím thì thà dùng giấy còn hơn, thế nên chúng ta dùng giấy).
 
 Cũng giống như câu chuyện lạc trên hoang đảo. Không còn điện thoại máy tính truyện tranh xe máy
@@ -63,3 +63,5 @@ là, nếu mã có phương thức dài, thì gần như là nó không tốt.
 
 *PS:
 À, nếu được, đừng để nó mutable.*
+
+[autumn-code-retreat]: http://codegym.vn/blog/autumn-coderetreat-2017
