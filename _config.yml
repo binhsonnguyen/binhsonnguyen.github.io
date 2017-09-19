@@ -8,6 +8,7 @@ github_username: binhsonnguyen
 
 # Build settings
 markdown: kramdown
+future: true
 
 # Liquid
 error_mode: strict
