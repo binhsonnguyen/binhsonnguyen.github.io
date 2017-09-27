@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+
+  site:
+    command: jekyll serve
+    image: jekyll/jekyll:latest
+    volumes:
+      - $PWD:/srv/jekyll
+      - $PWD/vendor/bundle:/usr/local/bundle
+    ports:
+      - 80:4000
