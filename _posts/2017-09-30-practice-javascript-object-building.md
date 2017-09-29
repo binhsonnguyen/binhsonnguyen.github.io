@@ -73,22 +73,22 @@ chúng trong hàm `draw`:
 ```javascript
 
 let ball = {
-	color: "red",
-	x: 100,
-	y: 100,
-	size: 50
+    color: "red",
+    x: 100,
+    y: 100,
+    size: 50
 };
 
 draw(ball);
 
 function draw(ball) {
-	const ANGLE_START = 0;
-	const ANGLE_END = 2 * Math.PI;
-	let ctx = canvas.getContext('2d');
-	ctx.beginPath();
-	ctx.fillStyle = ball.color;
-	ctx.arc(ball.x, ball.y, ball.size, ANGLE_START, ANGLE_END);
-	ctx.fill();
+    const ANGLE_START = 0;
+    const ANGLE_END = 2 * Math.PI;
+    let ctx = canvas.getContext('2d');
+    ctx.beginPath();
+    ctx.fillStyle = ball.color;
+    ctx.arc(ball.x, ball.y, ball.size, ANGLE_START, ANGLE_END);
+    ctx.fill();
 }
 
 ```
@@ -111,12 +111,12 @@ let ball = new Ball(100, 100, "red", 50);
 ball.draw(canvas);
 
 function Ball(x, y, color, size) {
-	this.x = x;
-	this.y = y;
-	this.color = color;
-	this.size = size;
-	
-	this.draw = function (canvas) {
+    this.x = x;
+    this.y = y;
+    this.color = color;
+    this.size = size;
+    
+    this.draw = function (canvas) {
         const ANGLE_START = 0;
         const ANGLE_END = 2 * Math.PI;
         let ctx = canvas.getContext('2d');
@@ -124,7 +124,7 @@ function Ball(x, y, color, size) {
         ctx.fillStyle = this.color;
         ctx.arc(this.x, this.y, this.size, ANGLE_START, ANGLE_END);
         ctx.fill();
-	}
+    }
 
 }
 
@@ -161,23 +161,23 @@ window.requestAnimationFrame(stepping);
 
 function stepping() {
     ball.roll();
-	ball.draw(canvas);
-	window.requestAnimationFrame(stepping);
+    ball.draw(canvas);
+    window.requestAnimationFrame(stepping);
 }
 
 
 function Ball(x, y, color, size) {
-	this.x = x;
-	this.y = y;
-	this.color = color;
-	this.size = size;
-	
-	this.roll = function() {
+    this.x = x;
+    this.y = y;
+    this.color = color;
+    this.size = size;
+    
+    this.roll = function() {
         this.x += 1;
         this.y += 1;
-	}
-	
-	this.draw = function (canvas) {
+    }
+    
+    this.draw = function (canvas) {
         const ANGLE_START = 0;
         const ANGLE_END = 2 * Math.PI;
         let ctx = canvas.getContext('2d');
@@ -185,7 +185,7 @@ function Ball(x, y, color, size) {
         ctx.fillStyle = this.color;
         ctx.arc(this.x, this.y, this.size, ANGLE_START, ANGLE_END);
         ctx.fill();
-	}
+    }
 
 }
 ```
@@ -201,18 +201,18 @@ thể làm việc này bằng cách XÓA TRẮNG TOÀN BỘ CANVAS:
 ```javascript
 
 function stepping() {
-	dim(canvas);
+    dim(canvas);
     ball.roll();
-	ball.draw(canvas);
-	window.requestAnimationFrame(stepping);
+    ball.draw(canvas);
+    window.requestAnimationFrame(stepping);
 
-	function dim(canvas) {
+    function dim(canvas) {
         let ctx = canvas.getContext('2d');
         const BACKGROUND_COLOR = "white";
         ctx.fillStyle = BACKGROUND_COLOR;
-  		ctx.fillRect(0, 0, canvas.width, canvas.height);
-	}
-	
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+    }
+    
 }
 
 ```
@@ -224,18 +224,18 @@ của bóng thành hai vector vuông góc với nhau. Chúng ta sẽ thực hi�
 
 ```javascript
 function Ball(x, y, velX, velY, color, size) {
-	this.x = x;
-	this.y = y;
-	this.velX = velX;
-	this.velY = velY;
-	this.color = color;
-	this.size = size;
-	
-	this.roll = function() {
+    this.x = x;
+    this.y = y;
+    this.velX = velX;
+    this.velY = velY;
+    this.color = color;
+    this.size = size;
+    
+    this.roll = function() {
         this.x += this.velX;
         this.y += this.velY;
-	}
-	this.draw = function (canvas) {
+    }
+    this.draw = function (canvas) {
         const ANGLE_START = 0;
         const ANGLE_END = 2 * Math.PI;
         let ctx = canvas.getContext('2d');
@@ -243,7 +243,7 @@ function Ball(x, y, velX, velY, color, size) {
         ctx.fillStyle = this.color;
         ctx.arc(this.x, this.y, this.size, ANGLE_START, ANGLE_END);
         ctx.fill();
-	}
+    }
 
 }
 ```
@@ -267,23 +267,23 @@ Bóng "bật"
 Ta sẽ làm bóng "đổi hướng" khi chạm phải "tường":
 
 ```javascript
-	this.roll = function() {
+    this.roll = function() {
         this.x += this.velX;
         this.y += this.velY;
 
-		let reachLeft =  this.x - this.size <= 0;
-		let reachRight =  this.x + this.size >= canvas.width;
-		if (reachLeft || reachRight) {
-			this.velX = -(this.velX);
-		}
+        let reachLeft =  this.x - this.size <= 0;
+        let reachRight =  this.x + this.size >= canvas.width;
+        if (reachLeft || reachRight) {
+            this.velX = -(this.velX);
+        }
 
-		let reachTop =  this.y - this.size <= 0;
-		let reachBottom =  this.y + this.size >= canvas.height;
-		if (reachTop || reachBottom) {
-			this.velY = -(this.velY);
-		}
+        let reachTop =  this.y - this.size <= 0;
+        let reachBottom =  this.y + this.size >= canvas.height;
+        if (reachTop || reachBottom) {
+            this.velY = -(this.velY);
+        }
 
-	}
+    }
 
 ```
 
@@ -298,29 +298,29 @@ màu ngẫu nhiên, và cho chúng tự lăn loạn trên màn hình. Nhưng tr�
 
 ```javascript
 let balls = [
-	new Ball(100, 100, 3, 1, "red", 30),
-	new Ball(300, 200, -2, 3, "blue", 20)
+    new Ball(100, 100, 3, 1, "red", 30),
+    new Ball(300, 200, -2, 3, "blue", 20)
 ];
 
 window.requestAnimationFrame(stepping);
 
 function stepping() {
-	dim(canvas);
-	
-	for (ball of balls) {
-	    ball.roll();
-		ball.draw(canvas);
-	}
+    dim(canvas);
+    
+    for (ball of balls) {
+        ball.roll();
+        ball.draw(canvas);
+    }
 
-	window.requestAnimationFrame(stepping);
+    window.requestAnimationFrame(stepping);
 
-	function dim(canvas) {
+    function dim(canvas) {
         let ctx = canvas.getContext('2d');
         const BACKGROUND_COLOR = "white";
         ctx.fillStyle = BACKGROUND_COLOR;
-  		ctx.fillRect(0, 0, canvas.width, canvas.height);
-	}
-	
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+    }
+    
 }
 
 ```
@@ -335,31 +335,31 @@ let balls = createABulkOfBalls(10);
 window.requestAnimationFrame(stepping);
 
 function createABulkOfBalls(num) {
-	let balls = Array(num);
-	while (num > 0) {
-		balls[--num] = createRandomBall();
-	}
+    let balls = Array(num);
+    while (num > 0) {
+        balls[--num] = createRandomBall();
+    }
 
-	return balls;
+    return balls;
 
-	function createRandomBall() {
-		let size = rdr(10, 30);
-		let x = rdr(size, canvas.width - size);
-		let y = rdr(size, canvas.height - size);
-		let velX = rdr(-10, 10);
-		let velY = rdr(-10, 10);
+    function createRandomBall() {
+        let size = rdr(10, 30);
+        let x = rdr(size, canvas.width - size);
+        let y = rdr(size, canvas.height - size);
+        let velX = rdr(-10, 10);
+        let velY = rdr(-10, 10);
 
-		let red = rdr(0, 255);
-		let green = rdr(0, 255);
-		let blue = rdr(0, 255);
-		let color = `rgb(${red}, ${green}, ${blue})`;
+        let red = rdr(0, 255);
+        let green = rdr(0, 255);
+        let blue = rdr(0, 255);
+        let color = `rgb(${red}, ${green}, ${blue})`;
 
-		return new Ball(x, y, velX, velY, color, size);
+        return new Ball(x, y, velX, velY, color, size);
 
-		function rdr(min, max) {
-			return Math.floor(Math.random() * (max - min)) + min;
-		}
-	}
+        function rdr(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+    }
 
 }
 
