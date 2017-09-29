@@ -4,7 +4,7 @@ services:
 
   site:
     command: jekyll serve
-    image: jekyll/jekyll:latest
+    image: jekyll/minimal:latest
     volumes:
       - $PWD:/srv/jekyll
       - $PWD/vendor/bundle:/usr/local/bundle
