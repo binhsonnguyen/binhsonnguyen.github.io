@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Chỉ dẫn thực hành xây dựng Javascript Objectt
+title:      Hành dụng xây dựng Javascript Objectt
 date:       2017-09-30
 ---
 
