@@ -32,14 +32,13 @@ va chạm rất tốt để làm những quả bóng dội lại sau khi chạm 
 Chuẩn bị
 ---
 
-Hãy chuẩn bị một thư mục dự án với [bộ khung][backbone]  gồm các file [index.html][index.html-01], 
-[style.css][style.css-01] và [main.js][main.js-01]. Bạn có thể download nhanh [tại đây][backbone-dl]. 
-Những file đó, theo thứ tự, chứa những nội dung sau:
+Hãy chuẩn bị một thư mục dự án với bộ khung gồm các file `index.html`, `style.css` và `main.js`. Bạn có thể download 
+nhanh [tại đây][backbone-dl]. Những file đó, theo thứ tự, chứa những nội dung sau:
 
 1. Một tài liệu HTML rất đơn giản, chứa một vùng `canvas` để chúng ta có thể vẽ lên, và lời gọi
 tới file *CSS* và *JavaScript* của chúng ta.
 
-2. Một ít style đơn giản với mục đích là loại bỏ đi những thanh cuộn và các khoảng giãn cách
+2. Một ít style đơn giản với mục đích là loại bỏ đi những khoảng giãn cách
 ở viền cửa sổ, giúp biến chúng thành những "bức tường" thực sự.
 
 3. Một đoạn mã *javascript* ngắn để vẽ phần tử `canvas` lên bao phủ vùng nhìn thấy của trình duyệt.
@@ -51,8 +50,6 @@ Chúng ta cùng xem xét những dòng mã *javascript* đầu tiên:
 let canvas = document.querySelector('canvas');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
-
-let ctx = canvas.getContext('2d');
 
 ```
 
@@ -71,6 +68,8 @@ Chúng ta sẽ mô tả một quả bóng, bao gồm vị trí, kích thước, 
 chúng trong hàm `draw`:
 
 ```javascript
+
+let ctx = canvas.getContext('2d');
 
 let ball = {
     color: "red",
@@ -160,11 +159,10 @@ let ball = new Ball(100, 100, "red", 50);
 window.requestAnimationFrame(stepping);
 
 function stepping() {
-    ball.roll();
     ball.draw(canvas);
+    ball.roll();
     window.requestAnimationFrame(stepping);
 }
-
 
 function Ball(x, y, color, size) {
     this.x = x;
@@ -188,6 +186,7 @@ function Ball(x, y, color, size) {
     }
 
 }
+
 ```
 
 Chạy lên thử
@@ -202,8 +201,8 @@ thể làm việc này bằng cách XÓA TRẮNG TOÀN BỘ CANVAS:
 
 function stepping() {
     dim(canvas);
-    ball.roll();
     ball.draw(canvas);
+    ball.roll();
     window.requestAnimationFrame(stepping);
 
     function dim(canvas) {
@@ -235,6 +234,7 @@ function Ball(x, y, velX, velY, color, size) {
         this.x += this.velX;
         this.y += this.velY;
     }
+    
     this.draw = function (canvas) {
         const ANGLE_START = 0;
         const ANGLE_END = 2 * Math.PI;
@@ -246,6 +246,7 @@ function Ball(x, y, velX, velY, color, size) {
     }
 
 }
+
 ```
 
 Và cập nhật sự thay đổi này ở chỗ dùng tới `Ball`:
@@ -308,8 +309,8 @@ function stepping() {
     dim(canvas);
     
     for (ball of balls) {
-        ball.roll();
         ball.draw(canvas);
+        ball.roll();
     }
 
     window.requestAnimationFrame(stepping);
@@ -363,7 +364,6 @@ function createABulkOfBalls(num) {
 
 }
 
-
 ```
 
 Đây là kết quả:
@@ -371,14 +371,97 @@ function createABulkOfBalls(num) {
 <img src="/resource/posts/2017-09-30-practice-javascript-object-building/bulk_of_balls.png" width="505" height="405" align="center" >
 
 
-Tôi sẽ bổ sung phần tiếp theo - kiểm tra va chạm giữa những quả bóng, trong thời gian sớm nhất
+Các bạn có thể quan sát thấy đôi lúc, có những quả bóng "đứng yên" được sinh ra, bạn có thể làm gì đó
+để tránh được điều này. Hoặc làm bóng "vỡ" sau một số lần va chạm nào đó, v.v... Có rất nhiều điều chúng ta có thể 
+làm cho đến bây giờ :). Nhưng gác lại những tùy biến đó, chúng ta đi đến một vấn đề khác trong lập trình game, cũng 
+cốt lõi không kém chuyện quản lý khung hình, đó là *phát hiện va chạm*.
 
+Chúng ta sẽ tìm cách phát hiện khi nào có hai "bóng" đã va chạm với nhau, và tạo ra một hệ quả nhìn thấy được, đó 
+là hai "bóng" sẽ "đổi màu". Ta sử dụng một thuật toán đơn giản được trình bày [ở đây][collision_detaction]
+để cấu thành khả năng phát hiện va chạm của bóng. Nó dựa vào việc *nếu khoảng cách giữa tâm của hai bóng nhỏ hơn tổng
+bán kính của hai quả bóng đó thì tức là bóng đã va chạm với nhau*. Bổ sung hàm sau vào lớp "bóng":
+
+```javascript
+
+    collisionDetect = function(balls) {
+        for (ball of balls) {
+            if (this !== ball && collisioned(this, ball)) {
+                this.color = randomColor();
+                ball.color = randomColor();
+            }
+        }
+
+        function collisioned(b1, b2) {
+            let sumOfRadiuses = b1.size + b2.size;
+            return distance(b1, b2) < sumOfRadiuses;
+        }
+
+        function distance(b1, b2) {
+            let dx = this.x - balls[j].x;
+            let dy = this.y - balls[j].y;
+            return Math.sqrt(dx * dx + dy * dy);
+        }
+
+        function randomColor() {
+            let red = rdr(0, 255);
+            let green = rdr(0, 255);
+            let blue = rdr(0, 255);
+            return `rgb(${red}, ${green}, ${blue})`;
+        }
+
+        function rdr(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+    }
+    
+```
+
+Và cho chạy kiểm tra va chạm sau mỗi khung hình
+
+```javascript
+function stepping() {
+    dim(canvas);
+    
+    for (ball of balls) {
+        ball.draw(canvas);
+        ball.roll();
+        ball.collisionDetect(balls);
+    }
+
+    window.requestAnimationFrame(stepping);
+
+    function dim(canvas) {
+        let ctx = canvas.getContext('2d');
+        const BACKGROUND_COLOR = "black";
+        ctx.fillStyle = BACKGROUND_COLOR;
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+    }
+    
+}
+
+```
+
+Bạn có thể lập trình để bóng có những phản ứng phức tạp hơn khi va chạm, như vỡ hay bật lại "như thật". Nhưng 
+việc đó đi hơi xa so với mục đích ban đầu của chúng ta, nên tôi không muốn đào sâu ở đây. Bạn có thể tự lập trình,
+hoặc sử dụng những thư viện giả lập vật lý (rất quen thuộc với các nhà phát triển game) như [PhysicsJS][[physics-js]], 
+[[matter-js]][matter-js]], [Phaser][phaser], v.v...
+
+Bạn cũng có thể để ý thấy tới lúc này thì mã đã xuất hiện mã lặp, bạn có thể làm gì đó để nợ kỹ thuật này không còn 
+nữa.
+
+Ví dụ vừa được trình bày đã bóc từng lớp nhỏ một của một bài toán thực tế, sử dụng nhiều đối tượng và nhiều hành 
+dụng lập trình hướng đối tượng. Hi vọng bạn đã thực hành được một vài kỹ năng hữu ích.
+
+Chúc bạn học vui.
+
+PS: bạn có thể theo dõi từng bước tiến triển của bài toán [ở đây][steps]. 
 
 [mwd-js-object-building]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_building_practice
 [mwd-js-object-overview]: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects
 [mwd-request-animation-frame]: https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
-[backbone]: https://gist.github.com/binhsonnguyen/ccb5503703a82f17823b8d8cbf4ef881
-[backbone-dl]: https://gist.github.com/binhsonnguyen/ccb5503703a82f17823b8d8cbf4ef881/archive/63df8ae7b671d8cd8ebb72d8752466f985a2f1f0.zip
-[index.html-01]: https://gist.githubusercontent.com/binhsonnguyen/ccb5503703a82f17823b8d8cbf4ef881/raw/5b104f9551b7f628594eda6496e202018eba066b/index.html
-[style.css-01]: https://gist.githubusercontent.com/binhsonnguyen/ccb5503703a82f17823b8d8cbf4ef881/raw/5b104f9551b7f628594eda6496e202018eba066b/style.css
-[main.js-01]: https://gist.githubusercontent.com/binhsonnguyen/ccb5503703a82f17823b8d8cbf4ef881/raw/5b104f9551b7f628594eda6496e202018eba066b/main.js
+[backbone-dl]: https://gist.github.com/binhsonnguyen/39c94748e9f6a6a32372b6ca849ef595/archive/c62bf80bb67bf835014f9c4d2e6205e6d246d4b9.zip
+[2d-collision_detaction]: https://developer.mozilla.org/en-US/docs/Games/Techniques/2D_collision_detection
+[physics-js]: http://wellcaffeinated.net/PhysicsJS/
+[matter-js]: http://brm.io/matter-js/
+[phaser]: https://phaser.io/
+[steps]: https://gist.github.com/binhsonnguyen/39c94748e9f6a6a32372b6ca849ef595/revisions
