@@ -443,8 +443,8 @@ function stepping() {
 
 Bạn có thể lập trình để bóng có những phản ứng phức tạp hơn khi va chạm, như vỡ hay bật lại "như thật". Nhưng 
 việc đó đi hơi xa so với mục đích ban đầu của chúng ta, nên tôi không muốn đào sâu ở đây. Bạn có thể tự lập trình,
-hoặc sử dụng những thư viện giả lập vật lý (rất quen thuộc với các nhà phát triển game) như [PhysicsJS][[physics-js]], 
-[[matter-js]][matter-js]], [Phaser][phaser], v.v...
+hoặc sử dụng những thư viện giả lập vật lý (rất quen thuộc với các nhà phát triển game) như [PhysicsJS][physics-js], 
+[matter-js][matter-js], [Phaser][phaser], v.v...
 
 Bạn cũng có thể để ý thấy tới lúc này thì mã đã xuất hiện mã lặp, bạn có thể làm gì đó để nợ kỹ thuật này không còn 
 nữa.
