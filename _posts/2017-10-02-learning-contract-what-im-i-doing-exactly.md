@@ -4,9 +4,6 @@ title:      Learning Contract là gì? Và nếu thế thì bao nhiêu.
 date:       2017-10-02
 ---
 
-TL;DR
----
-
 Learning Contract- giao kèo học là khái niệm đầu tiên làm tôi to đầu trong khóa CCE. Kế hoạch làm việc trong ngày, kế 
 hoạch làm việc trong sprint, sprint goal và làm mịn product backlog, v.v.. Tôi chấp nhận khá dễ dàng và theo thói quen.
 Nhưng áp dụng lối đó vào học tập thì quả là một phát kiến đúng đắn đến mức chắc phải đần lắm mới nghĩ ra dc. Tôi đã 
