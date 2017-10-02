@@ -18,9 +18,13 @@ khác (dẫn dắt đến chỗ nào lại là một vế mở).
 nghề vững vàng của nhà lãnh đạo học tập, bên cạnh đó, chúng tôi khao khát những chuyên gia bước ra khỏi
 lĩnh vực của mình, tổng hợp và kết nối để tạo ra những giá trị mới.
 
-Giáo sư Tấn cũng mong mỏi những nhà giáo dục lĩnh hội được respecfull-mind và effectual-mind. Tôi chưa
+<strike>Giáo sư Tấn cũng mong mỏi những nhà giáo dục lĩnh hội được respecfull-mind và effectual-mind. Tôi chưa
 hề biết đến khái niệm effectual-mind, nhưng có thể giải nghĩa được respectful-mind thành "tư duy tôn 
-trọng". Nếu đó đúng là thứ tôi nghĩ đến thì tư duy này không thát ra khỏi chữ đạo đức.
+trọng". Nếu đó đúng là thứ tôi nghĩ đến thì tư duy này không thát ra khỏi chữ đạo đức.</strike>
+
+Giáo sư Tấn cũng mong mỏi những nhà giáo dục lĩnh hội được respectful-mind và ethical-mind. Điều này 
+phù hợp với những suy tư gần đây của tôi. Sau tất cả, nếu thiếu vắng đi sự coi sóc tâm tư đạo đức, thì 
+việc tiến bộ về mặt tư duy không thể đi đến mức đầy đặn.
 
 Trong chương trình CCE, chúng tôi đóng vai trò là những học viên, tự học, tự đánh giá
 và lúc nào thấy đến lúc thì tự thân tốt nghiệp lấy. Chúng tôi sử dụng những "giao kèo học tập" như 
