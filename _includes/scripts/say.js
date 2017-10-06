@@ -2,7 +2,13 @@ function fortune() {
     "use strict";
 
     const fortunes = [
-        "thế giới cần thêm nhiều nhà lãnh đạo học tập tử tế"
+        "thế giới cần thêm nhiều nhà lãnh đạo học tập tử tế",
+        "rasing the bar",
+        "không những phần mềm chạy ổn, mà còn phải tinh xảo",
+        "không những phản hồi với thay đổi, mà còn phải kiên định có thêm giá trị",
+        "không những phản hồi với thay đổi, mà còn phải kiên định có thêm giá trị",
+        "không những cá nhân và sự tương tác, mà còn phải cộng đồng chuyên nghiệp",
+        "không những cộng tác với khách hàng, mà còn phải đối tác bền chặt",
     ];
 
     return randomPick(fortunes);
