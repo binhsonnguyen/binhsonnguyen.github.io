@@ -7,6 +7,5 @@ services:
     image: jekyll/minimal:latest
     volumes:
       - $PWD:/srv/jekyll
-      - $PWD/vendor/bundle:/usr/local/bundle
     ports:
       - 80:4000
