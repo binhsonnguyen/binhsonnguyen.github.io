@@ -29,11 +29,12 @@ function cowsay(fortune) {
             return text;
         }
 
-        const E = '.{1,' + width + '}(\\s|$)' + (cut ? '|.{' + width + '}|.+$' : '|\\S+?(\\s|$)');
-
         breaker = breaker || '\n';
         width = width || 75;
         cut = cut || false;
+
+        const E = '.{1,' + width + '}(\\s|$)' + (cut ? '|.{' + width + '}|.+$' : '|\\S+?(\\s|$)');
+
         return text.match(RegExp(E, 'g')).join(breaker);
 
     }
