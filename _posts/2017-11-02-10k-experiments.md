@@ -25,10 +25,10 @@ Vậy làm thế nào mà Edison lại thắng.
 8 năm 79 (của thế kỷ đó), họ thành công, tạo ra một chiếc bong đèn để sử dụng hằng ngày, cho mỗi gia đình.
 
 Edison cùng xưởng còn tiên phong trong năm lĩnh vực nhiều triệu đô khác với các phát minh của mình: điện, 
-hoạt hình, viễn thông, pin, thu âm - bạn cứ tưởng tượng Elon Musk, Jeff Bezos, Mark Zuckerberg cả ba làm 
+hoạt hình, viễn thông, pin, thu âm - bạn cứ tưởng tượng Elon Musk, Jeff Bezos và Mark Zuckerberg cả ba làm 
 phép hợp thể.
 
-Chìa khóa là gì? Hai từ: thí nghiệm có chủ đích. Với Edison, xây dựng một công ty đồng nghĩa với xây dựng
+Chìa khóa là gì? Hai từ: thí nghiệm / có chủ đích. Với Edison, xây dựng một công ty đồng nghĩa với xây dựng
 một xưởng phát minh.
 
 Kỹ thuật đó hiện tại ngày càng thể hiện sự mạnh mẽ. Hãy xem [Jeff Bezos nói][jeff-claimed] gì: *"Thành công 
@@ -53,10 +53,10 @@ phổ biến nhất cộng đồng mạng. Ý tưởng ở đó là bạn cần 
 giới trong bất kỳ lĩnh vực nào.
 
 Nghiên cứu giờ đây cho hay, nó không đủ mạnh để giải thích cho thành công, đặc biệt là trong lĩnh vực chuyên
-nghiệp. Một [khảo sát][review] vào năm 2014 trên 88 nghiên cứu trước đó, cho thấy rằng "thực hành có chủ đích giải 
-thích được 26% hiệu năng trong lĩnh vực trò chơi, 21% cho âm nhạc, 18% trong thể thao, 4 cho giáo dục và **ít 
-hơn 1% cho nghề nghiệp**. Chúng tôi công nhận rằng thực hành có chủ ý là quan trọng, nhưng không đế mức như 
-chúng ta tưởng."
+nghiệp. Một [khảo sát][review] vào năm 2014 trên 88 nghiên cứu trước đó, cho thấy rằng "thực hành có chủ đích 
+giải thích được 26% hiệu năng trong lĩnh vực trò chơi, 21% cho âm nhạc, 18% trong thể thao, 4 cho giáo dục và 
+**ít hơn 1% cho nghề nghiệp**. Chúng tôi công nhận rằng thực hành có chủ ý là quan trọng, nhưng không đế mức 
+như chúng ta tưởng."
 
 Các bạn coi biểu đồ sau cho dễ hình dung:
 
@@ -95,6 +95,33 @@ và thời lượng ngủ của bạn, và sử dụng chúng để tạo nên n
 Để đạt được 10,000 giờ luyện tập có chủ đích cần có 3 giờ mỗi ngày trong mười năm. Tôi cho rằng 10,000 thí 
 nghiệm cũng có độ khó tương tự, vẫn 10 năm, và 3 thử nghiệm, mỗi ngày.
 
+Nghiên cứu từ giới học thuật
+---
+
+Nếu cách làm của Edison phổ biến, hẳn bạn sẽ thấy nó xuất hiện nhiều lần ở những cá nhân kiệt xuất nhất. Khi
+suy nghĩ đó được manh nha, giới học thuật đã đi vào nghiên cứu trong nhiều thập kỷ, và nó chính xác đã xảy ra.
+
+Nhà nghiên cứu Dean Keith Simonton đã bỏ công nghiên cứu tỉ mỉ sự nghiệp của những cá nhân sáng tạo kiệt xuất 
+của thế giới. Để chia sẻ những phát hiện của mình, ông đã xuất bản hơn 340 bài viết học thuật và 13 cuốn sách, 
+trong đó có [Những kẻ vĩ đại: Ai đã tạo ra Lịch sử, và sao lại thế][greatness] cùng với [Nguồn gốc thiên tài: 
+những quan điểm của Darwin về sự sangs tạo][origins].
+
+Có hai cái nhìn hấp dẫn xuất hiện từ nghiên cứu của Simonton (và cả những người khác nữa). Đầu tiên là những
+ý tưởng đột phá nhất được tạo ra bởi một số ít những siêu sao, và trong bất kỳ lĩnh vực nào, 10% những kẻ kiệt
+xuất tạo ra hơn 50% các đột phá.
+
+Tại sao những siêu sao đó thành công hơn nhiều đến thế? Có phải vì ý tưởng của họ luôn siêu việt hơn của những
+người khác? Chỗ này vui: câu trả lời là không. Bài học thứ hai lấy ra từ nghiên cứu của Simonton là những 
+siêu sao cũng tạo ra nhiều ý tưởng tồi tệ như bao người khác - họ chỉ là sáng tạo ra nhiều ý tưởng hơn. Có 
+nhiều ý tưởng hơn có nghĩa là họ thất bại nhiều hơn nhưng đổi lại cũng ăn được nhiều cú.
+
+[Simonton đã cho biết][simonton-said]: "Điều đặc biệt hấp dẫn là các cá nhân sáng tạo dường như không có khả 
+năng cải thiện tỷ lệ thành công của họ thông qua tăng cường kinh nghiệm hoặc chuyên môn,"... "Những người sáng 
+tạo, kể cả những kẻ được gọi là thiên tài, cũng không hề đoán trước được sáng tạo trí tuệ hay thẩm mĩ nào sẽ
+giành được sự hưởng ứng."
+
+Nói cách khác, chìa khóa để tối đa hóa thành công sáng tạo, theo lý thuyết, là tạo ra nhiều thử nghiệm hơn.
+
 (Còn tiếp)
 
 [source]: https://medium.com/the-mission/forget-about-the-10-000-hour-rule-7b7a39343523
@@ -103,11 +130,14 @@ nghiệm cũng có độ khó tương tự, vẫn 10 năm, và 3 thử nghiệm,
 [10k-hours-rule]: http://wisdomgroup.com/blog/10000-hours-of-practice/
 [review]: http://scottbarrykaufman.com/wp-content/uploads/2014/07/Macnamara-et-al.-2014.pdf
 [leonardo-da-vinci-biographers]: https://www.amazon.com/Leonardo-da-Vinci/dp/B071S8BNDP/ref=sr_1_1?ie=UTF8&qid=1508934778&sr=8-1&keywords=walter+isaacson+leonardo+da+vinci
-
-
-
-
-
+[greatness]: http://a.co/7m7bKdz
+[origins]: http://a.co/aDXgSeT
+[simonton-said]: https://books.google.com/books?id=D2UAAwAAQBAJ&lpg=PA235&ots=PIQVJfDgUp&dq=What%20is%20especially%20fascinating%20is%20that%20creative%20individuals%20are%20not%20apparently%20capable%20of%20improving%20their%20success%20rate%20with%20experience%20or%20enhanced%20expertise&pg=PA235#v=onepage&q=What%20is%20especially%20fascinating%20is%20that%20creative%20individuals%20are%20not%20apparently%20capable%20of%20improving%20their%20success%20rate%20with%20experience%20or%20enhanced%20expertise&f=false
+[campbel-model]: https://www.cogsci.msu.edu/DSS/2012-2013/Simonton/2011RGPCampbellBVSR.pdf
+[a-fast-company]: https://www.fastcompany.com/3063846/why-these-tech-companies-keep-running-thousands-of-failed
+[einsteins-papers]: https://www.linkedin.com/pulse/thinking-strategies-used-creative-geniuses-michael-michalko
+[one-percent]: http://www.sciencemag.org/news/2014/07/1-scientific-publishing
+[snl]: https://thehustle.co/whats-a-typical-week-for-a-writer-at-snl
 
 
 
