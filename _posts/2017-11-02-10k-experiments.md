@@ -68,7 +68,7 @@ nhưng nó vô dụng ở những lãnh địa thay đổi nhanh chóng, như c�
 
 Những gì mà Edison (và cả những ví dụ sau đây nữa) dạy chúng ta là, chúng ta phải tối đa hóa số lượng thử 
 nghiệm của mình, không phải "giờ". **Thay vì luật 10,000 giờ, chúng ta cần cái mà tôi gọi là luật 10,000 thử 
-nghiệm."
+nghiệm."**
 
 Theo suốt chiều dài lịch sử, nghiên cứu khoa học cho con người nhiều tiến bộ hơn bất cứ triết lý nào từng làm
 được. Trái tim của nghiên cứu khoa học là thực nghiệm: phát triển một giả thuyết, thực hiện một kiểm thử để 
