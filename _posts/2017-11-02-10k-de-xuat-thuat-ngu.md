@@ -28,7 +28,7 @@ Dịch như thế không có gì sai. Bao lâu nay nghề tester đã được d
 
 Nhưng dùng "kiểm thử" để giải thích về TDD thì lại có vấn đề.
 
-Sau khi khởi sinh, và qua thời gian thử nghiệm trên diện rộng cũng như làm đầy đặn khái niệm. TDD
+Sau khi khởi sinh, và qua thời gian thử nghiệm trên diện rộng cũng như làm đầy đặn khái niệm, TDD
 được hiểu là sử dụng việc mở rộng các kiểm thử đơn vị, song song với làm cho sản phẩm đạt tới tình 
 trạng hợp lý nhất mà đáp ứng được bộ kiểm thử mới được tăng trưởng, và chỉ thế mà thôi.
 
