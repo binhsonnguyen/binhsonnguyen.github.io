@@ -122,6 +122,105 @@ giành được sự hưởng ứng."
 
 Nói cách khác, chìa khóa để tối đa hóa thành công sáng tạo, theo lý thuyết, là tạo ra nhiều thử nghiệm hơn.
 
+Từ Y tế tới Hài Độc thoại: 10,000 thử nghiệm trên khắp các lĩnh vực
+---
+
+Khi bạn xem xét nhiều thành tựu quan trọng nhất trên nhiều lĩnh vực khác nhau, bạn sẽ thấy sự xuất hiện của 
+lý thuyết này.
+
+[Một bài viết của công ty Fast][a-fast-company], viết bởi những cây viết quảng cáo huyền thoại Ben Clarke và Jon
+Bond chỉ ra rằng nhờ sự kết hợp của các công nghệ mới và các phương thức kinh doanh tinh gọn, [những doanh 
+nghiệp sáng tạo nhất trên thế giới] đang chạy hàng nghìn thử nghiệm hàng năm:
+
+<img src="/resource/posts/2017-11-02-10k-experiments/experiments-sum.png">
+
+Trong giới học thuật, Einstein được biết tới rộng rãi nhất bởi những nghiên cứu về thuyết tương đối, nhưng 
+ngoài ra ông còn xuất bản [248 bài viết khác][einsteins-papers]. Paul Erdos đồng tác giả hơn 1,500 bài báo 
+nghiên cứu toán học trong sự nghiệp của mình. 1,500! Và như bạn mong đợi, mặc dù hầu hết các bài viết của ông
+đều bị lãng quên, chỉ một lượng ít trong số chúng đã làm cho ông trở thành một trong những nhà toán học có 
+ảnh hưởng nhất thế kỷ 20! Để cho có cái mà so sánh, bạn nên biết rằng [có ít hơn 1% nhà khoa học xuất bản được
+ít nhất một bài viết mỗi năm][one-percent].
+
+Trong giới giải trí, SNL, một trong những chương trình truyền hình dài nhất trong lịch sử, có một [quy trình 
+thử nghiệm khắc nghiệt hàng tuần][snl] để động não, nghiên cứu tìm kiếm, và viết lại các kịch bản. Chỉ một tỷ 
+lệ rất nhỏ các ý tưởng cho lên sóng. Những phim hoạt hình mang tính biểu tượng của *The New Yorker* là kết quả 
+của một quá trình mà hơn 50 nghệ sĩ tự do, mỗi người gửi hơn 10 bản phác thảo mỗi tuần: 
+
+<img src="/resource/posts/2017-11-02-10k-experiments/sketches.png">
+
+Pixar, một trong những studio họat hình thành công nhất trong lịch sử, phát triển hơn [100,000 phác thảo kịch 
+bản][wall-e] trước khi chốt cốt truyện cuối cùng. 100,000!()
+
+<img src="/resource/posts/2017-11-02-10k-experiments/story-board.jpg" width="800" height="604">
+<small>Nguồn: [Pixar Storyboarding Mini Doc][pixar-mini-doc]</small>
+
+Những người nhiệt tình thử nghiệm suốt trong cuộc sống cá nhân cũng có xu hướng gặt hái được những thành công
+tương tự. Lấy ví dụ, Shonda Rhimes, là chủ nhiệm và nhà văn của Grey's Anatomy, Scandal (hai chương trình truyền 
+hình ăn khách ở Mĩ - người dịch) và một số show hoành tránh khác. Cô thành lập một chương trình thử nghiệm được 
+gọi là [năm của những câu trả lời Yes][year-of-yes] để đối mặt với sự suy nhược do hội chứng sợ xã hội, giới hạn 
+thói tham công tiếc việc, và chấp nhận bản thân. Thay vì liên tục nói không với các trải nghiệm xã hội, cô cam 
+kết nói "Yes" trong cả năm. Một trong nhiều kinh nghiệm mà cô có được từ những trải nghiệm đó là để biết được 
+phải tập trung vào việc gì, bạn phải được thử nhiều việc đã.
+
+Doanh nhân Jia Jang đắm mình đón nhận điều mà hầu hết chúng ta lo sợ về - sự từ chối - và đưa chúng vào trong 
+một thử nghiệm với dự án [100 ngày bị từ chối][days-of-rejection]. Mỗi ngày trong dự án đó, Jia Jang ép mình 
+làm việc gì đó khó chịu về mặt xã hội, và kết quả thường là sự từ chối (ví dụ, [hỏi để được chơi bóng trong sân
+nhà người ta][soccer]), và tất cả đều được anh ấy thu hình. Nhà báo Elizabeth Gilbert bỏ cả việc lẫn cuộc hôn
+nhân của mình và dành một năm để đi du lịch khắp thế giới và khám phá bản thân. Cô dành thời gian cả năm đó cho
+ba thí nghiệm: ăn, cầu nguyện, và yêu. Những kinh nghiệm của cô đã được chuyển thể thành [một cuốn best-selling]
+[eat-pray-love] cũng như phim truyền hình. Doanh nhân trẻ tuổi Ari Meiel sử dụng [dữ liệu và trả nghiệm để chữa
+Crohn][ari-meisel] (viêm ruột mãn tính), bệnh mà bác sĩ của anh đã nói rằng không thể chữa khỏi.
+
+<img src="/resource/posts/2017-11-02-10k-experiments/life-experiments.png">
+<small>Nguồn: [Để trở thành người như bạn muốn, thử như 15 đời thí nghiệm sau][life-experiments]</small>
+
+Làm rõ kết toán "Nếu bạn có thể làm đủ thử nghiệm, thành công hầu như được đảm bảo"
+---
+
+Nếu thử nghiệm mạnh mẽ đến như thế, sao không có nhiều người làm theo cách đó?
+
+Tôi có thể nêu ra vài lý do...
+
+Đầu tiên, chúng ta đang sống trong một khung văn khóa bị ám ảnh bởi năng suất: làm ra nhiều hơn, với ít thời 
+gian hơn, hệ thống hóa, tự động hóa, thậm chí còn cả thuê ngoài nữa. Việc ai đó đang ở trong một khung năng suất 
+ngắn hạn, lại có thể [dùng nguyên một ngày][compound-time] để nuôi dưỡng một quá trình sáng tạo với kết quả không
+thể đoán trước và không ngay lập tức sinh lời, là khá khó khăn. Những gì hiệu quả trong dài hạn thường cho cảm 
+giác không hiệu quả lắm trong ngắn hạn.
+
+Ngoài ra, thực hiện thí nghiệm cần kiên trì. Để vắt ra được vài giọt học có chủ ý, cần ít nhất 15 phút mỗi ngày,
+nhưng thách thức hơn cả là việc phần lớn các thí nghiệm đều thất bại. Khi việc thất bại ngày càng được để ý tới
+trong xã hội của chúng ta, thì trong thâm tâm, phần lớn mọi người có cảm giác xấu hổ và thất vọng với chúng.
+
+Mãi đến khi tôi lý giải được phép toán đằng sau sự thử nghiệm, tôi mới có thể quên đi nỗi sợ của mình về thất 
+bại.
+
+**1. Nếu bạn làm đủ nhiều thử nghiệm, bạn giữ kèo trên,** chất lượng của mỗi thử nghiệm theo nhau tăng lên, bởi 
+vì bạn sẽ có xu hướng áp dụng kết quả của những thử nghiệm trước dó. Những bài học đó làm cho đồ thị thành công 
+của bạn là đồ thị hàm mũ thay vì tuyến tính.
+
+<img src="/resource/posts/2017-11-02-10k-experiments/curved.png">
+
+**2. Một thử nghiệm thắng lớn đủ trang trải cho tất cả những thất bại,** như Jeff Bezos giải thích trong một [báo
+cáo tài chính][jeff-sec-filing] gần đây:
+
+Trước một ván cược mà có 10% tỷ lệ ăn 100, bạn nên chơi tất cả các ván. Nhưng bạn vẫn có tỉ lệ thua cả chín lần.
+Chúng ta đều biết là nếu bạn cố đánh bóng vượt rào, bạn sẽ đánh trượt rất nhiều, nhưng bạn cũng sẽ có cợ hội ăn
+được vài cú Homerun (ăn đẹp - thuật ngữ bóng chày). Sự khác nhau giữa bóng chày và kinh doanh là, dù sao thì, những
+cú ăn điểm của bóng chày bị cắt ngắn và chia nhỏ. Nếu bạn đánh được vượt rào, cùng lắm thì bạn ăn điểm 4 lần. Trong 
+kinh doanh, mỗi cú như thế, bạn có thể ăn điểm hàng nghìn lần.
+
+<img src="/resource/posts/2017-11-02-10k-experiments/big-win.png">
+
+**3. Những công cụ hiện tại cho phép bất kỳ ai tăng lượng thử nghiệm của mình lên một con số rất lớn.** Một họ
+các ứng dụng, dịch vụ và trình theo dõi hữu dụng giúp chúng ta thu thập và phân tích dữ liệu của mình, tìm hiểu 
+những thứ gì hoạt động tốt, giải thích, giữ trách nhiệm, và theo dõi tiến độ của chúng ta theo thời gian thực. 
+Trong lĩnh vực ý tế, ví dụ, có những công cụ mới đã dẫn tới thiết bị bẻ khóa sinh học và máy sinh trắc, và mọi 
+người dùng thông tin đường máu, giấc ngủ, hoạt động, nhịp tim, sinh lý ruột, và công nghệ gene để hỗ trợ cho các
+thử nghiệm. Sự bùng nổ các thử nghiệm cũng xảy ra tương tự trong thế giới của các mối quan hệ, tình dục, trí khôn,
+hành phúc, hiệu suất và kế toán cá nhân.
+
+Ơ nếu mà ở khắp nơi người ta đang làm thử nghiệm có chủ ý, thì bạn cũng có thể!
+
 (Còn tiếp)
 
 [source]: https://medium.com/the-mission/forget-about-the-10-000-hour-rule-7b7a39343523
@@ -138,12 +237,16 @@ Nói cách khác, chìa khóa để tối đa hóa thành công sáng tạo, the
 [einsteins-papers]: https://www.linkedin.com/pulse/thinking-strategies-used-creative-geniuses-michael-michalko
 [one-percent]: http://www.sciencemag.org/news/2014/07/1-scientific-publishing
 [snl]: https://thehustle.co/whats-a-typical-week-for-a-writer-at-snl
-
-
-
-
-
-
+[wall-e]: https://editorial.rottentomatoes.com/article/exclusive-the-storyboards-of-walle/
+[pixar-mini-doc]: https://www.youtube.com/watch?v=7LKPVAIcDXY
+[year-of-yes]: http://www.simonandschuster.com/books/Year-of-Yes/Shonda-Rhimes/9781476777122
+[days-of-rejection]: http://fearbuster.com/100-days-of-rejection-therapy/
+[soccer]: https://watchkin.com/77804c78ec?script=GMscript
+[eat-pray-love]: http://a.co/i2Uco0p
+[ari-meisel]: http://quantifiedself.com/2011/10/ari-meisel-on-curing-the-incurable-through-self-experimentation/
+[life-experiments]: https://medium.com/the-mission/to-become-who-you-want-to-be-try-these-15-life-experiments-203e38d4fcee
+[compound-time]: https://medium.com/the-mission/why-successful-people-spend-10-hours-a-week-on-compound-time-79d64d8132a8
+[jeff-sec-filing]: https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm
 
 
 
