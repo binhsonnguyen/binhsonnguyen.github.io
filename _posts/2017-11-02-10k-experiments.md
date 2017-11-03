@@ -221,8 +221,46 @@ hành phúc, hiệu suất và kế toán cá nhân.
 
 Ơ nếu mà ở khắp nơi người ta đang làm thử nghiệm có chủ ý, thì bạn cũng có thể!
 
-(Còn tiếp)
+Học được gì từ Edison trong việc thực sự sống theo luật 10,000 thử nghiệm
+---
 
+Edison không chỉ có ý định trở nên sáng tạo hơn. Ông ấy cho xây nguyên một nhà máy dùng cho thí nghiệm, để đảm bảo 
+rằng ông ấy cùng đội của mình luôn cho ra phát minh mới. [Mục tiêu của Edison][edison-habit] là, ví dụ, cho ra một
+phát minh nhỏ mỗi 10 ngày, và một phát minh lớn mỗi 6 tháng. Khi ông ấy sắp chạm đến một bước đột phá, chẳng hạn 
+như bóng đèn, ông sử dụng một quá trình đặc thù gọi là [Drag Hunts][drag-hunts] (săn theo mùi - người dịch), theo 
+đó ông có thể tạo ra và kiểm thử hàng trăm, thậm chí hàng ngìn khả năng.
+
+Vậy lối sống 10,000 thử nghiệm của bạn trông sẽ như thế nào?
+
+Tôi, khuyên bạn thực hiện ngay hai bước sau đây, thứ có thể thay đổi mọi thứ giúp bạn:
+
+**Đầu tiên, xác định ít nhất một thử nghiệm cực kỳ ăn tiền mà có thể thay đổi cuộc sống của bạn.** Con đường đến
+với thử nghiệm có chủ đích bắt đầu với một thử nghiệm, nhưng không phải mọi thử nghiệm đều có giá trị như nhau. 
+Một vài thử nghiệm rất tốn thời gian và tiền bạc. Một số tạo ra tăng trưởng, trong khi những cái khác có thể thay 
+đổi cuộc sống. Có những cái chỉ có 1% cơ hội thành công. Mấy cái khác gần như chắc chắn thắng cược. Khi chọn thử
+nghiệm đầu tiên để theo đuổi, bạn nên chọn một cái mà dễ dàng sinh giá trị, theo thời gian có khả năng thay đổi cuộc 
+sống của bạn, và có mức chi phí bỏ ra hợp lý. Tôi gọi đó là thử nghiệm ăn tiền.
+
+**Thứ hai, tôi khuyên nghị chạy ba kiểm thử mỗi ngày.** Khi bạn bắt đầu một ngày, hãy xác định ba kiểm tra
+mà bạn muốn thử nghiệm. Thu thập dữ liệu trong suốt cả ngày, và trước khi ngày đó kết thúc, hãy phân tích kết quả.
+
+Thử làm điều đó trong vòng một tháng, hay 90 thử nghiệm, và xem sự khác biệt mà chúng tạo ra.
+
+(QC của tác giả - người dịch) **Nếu bạn hứng thú với việc thực sự hành động để trở thành nhà thực nghiệm có chủ 
+đích? Sau khi học được cách mà hàng tá những nhà thực nghiệm giá trị nhất thế giới làm việc, chúng tôi bỏ ra nhiều 
+giờ để tạo ra những khóa học nhỏ giúp bạn thành công với luật 10,000 thử nghiệm. Trong đó có cả ví dụ thưc tế từ 
+những nhà thử nghiệm đã cải thiện sức khỏe, sự tự tin, lối sống; có những chiêu để tiến hành một thử nghiệm hợp lệ, 
+chi tiết về Biến thể Mù và Duy trì có chọn lọc, và nhiều nữa.**
+
+Lưu ý từ ban biên tập: Để hiểu rõ hơn về Biến đổi Mù và sự Duy trì có chọn lọc, bạn có thể tham khảo những tài 
+liệu học thuật mà Simonton xuất bản năm 2011, [Sáng tạo và Khám phá như Biến đổi Mù: Mô hình BVSR của Campbell 
+(1960) sau nửa thế kỷ][campbel-model].
+
+Cảm ơn các bạn đã theo dõi (người dịch).
+
+[Về tác giả Michael Simmons][about-the-author].
+
+[about-the-author]: http://t.co/T32xDLUBLJ
 [source]: https://medium.com/the-mission/forget-about-the-10-000-hour-rule-7b7a39343523
 [jeff-claimed]: https://medium.com/abundance-insights/culture-experimentation-with-uber-s-chief-product-officer-520dc22cfcb4
 [mark-explained]: https://www.stitcher.com/podcast/stitcher/masters-of-scale
@@ -247,7 +285,8 @@ hành phúc, hiệu suất và kế toán cá nhân.
 [life-experiments]: https://medium.com/the-mission/to-become-who-you-want-to-be-try-these-15-life-experiments-203e38d4fcee
 [compound-time]: https://medium.com/the-mission/why-successful-people-spend-10-hours-a-week-on-compound-time-79d64d8132a8
 [jeff-sec-filing]: https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm
-
+[edison-habit]: http://thinkjarcollective.com/tools/thomas-edisons-creative-thinking-habits/
+[drag-hunts]: https://books.google.com/books?id=VU885vUQ9bQC&lpg=PA48&ots=-AycI7nEm4&dq=%22A%20Cognitive%20Framework%20to%20Understand%20Technological%20Creativity%3A%20Bell%2C%20Edison%2C%20and%20the%20Telephone%22&lr&pg=PA48#v=onepage&q=%22A%20Cognitive%20Framework%20to%20Understand%20Technological%20Creativity:%20Bell,%20Edison,%20and%20the%20Telephone%22&f=false
 
 
 
