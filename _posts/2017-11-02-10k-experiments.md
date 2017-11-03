@@ -248,13 +248,13 @@ Thử làm điều đó trong vòng một tháng, hay 90 thử nghiệm, và xem
 
 (QC của tác giả - người dịch) **Nếu bạn hứng thú với việc thực sự hành động để trở thành nhà thực nghiệm có chủ 
 đích? Sau khi học được cách mà hàng tá những nhà thực nghiệm giá trị nhất thế giới làm việc, chúng tôi bỏ ra nhiều 
-giờ để tạo ra những khóa học nhỏ giúp bạn thành công với luật 10,000 thử nghiệm. Trong đó có cả ví dụ thưc tế từ 
-những nhà thử nghiệm đã cải thiện sức khỏe, sự tự tin, lối sống; có những chiêu để tiến hành một thử nghiệm hợp lệ, 
-chi tiết về Biến thể Mù và Duy trì có chọn lọc, và nhiều nữa.**
+giờ để tạo ra một [khóa học nhỏ][course] giúp bạn thành công với luật 10,000 thử nghiệm. Trong đó có cả ví dụ thưc 
+tế từ những nhà thử nghiệm đã cải thiện sức khỏe, sự tự tin, lối sống; có những chiêu để tiến hành một thử nghiệm 
+hợp lệ, chi tiết về Biến thể Mù và Duy trì có chọn lọc, và nhiều nữa.**
 
-Lưu ý từ ban biên tập: Để hiểu rõ hơn về Biến đổi Mù và sự Duy trì có chọn lọc, bạn có thể tham khảo những tài 
-liệu học thuật mà Simonton xuất bản năm 2011, [Sáng tạo và Khám phá như Biến đổi Mù: Mô hình BVSR của Campbell 
-(1960) sau nửa thế kỷ][campbel-model].
+Lưu ý từ ban biên tập: *Để hiểu rõ hơn về Biến đổi Mù và sự Duy trì có chọn lọc, bạn có thể tham khảo những tài 
+liệu học thuật mà Simonton xuất bản năm 2011, [Sáng tạo và Khám phá giống với Biến đổi Mù: Mô hình BVSR của Campbell 
+(1960) sau nửa thế kỷ][campbel-model].*
 
 Cảm ơn các bạn đã theo dõi (người dịch).
 
@@ -287,21 +287,4 @@ Cảm ơn các bạn đã theo dõi (người dịch).
 [jeff-sec-filing]: https://www.sec.gov/Archives/edgar/data/1018724/000119312516530910/d168744dex991.htm
 [edison-habit]: http://thinkjarcollective.com/tools/thomas-edisons-creative-thinking-habits/
 [drag-hunts]: https://books.google.com/books?id=VU885vUQ9bQC&lpg=PA48&ots=-AycI7nEm4&dq=%22A%20Cognitive%20Framework%20to%20Understand%20Technological%20Creativity%3A%20Bell%2C%20Edison%2C%20and%20the%20Telephone%22&lr&pg=PA48#v=onepage&q=%22A%20Cognitive%20Framework%20to%20Understand%20Technological%20Creativity:%20Bell,%20Edison,%20and%20the%20Telephone%22&f=false
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[course]: http://bit.ly/2xn4ztM_Medium_Article_5-2
