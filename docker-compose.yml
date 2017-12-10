@@ -2,10 +2,16 @@ version: '2'
 
 services:
 
-  site:
-    command: jekyll serve
+  web:
+    image: nginx:alpine
+    volumes:
+      - $PWD/_site/:/var/www:ro
+      - $PWD/vhost.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - 80:80
+
+  build:
+    command: jekyll build --watch
     image: jekyll/minimal:latest
     volumes:
       - $PWD:/srv/jekyll
-    ports:
-      - 80:4000
