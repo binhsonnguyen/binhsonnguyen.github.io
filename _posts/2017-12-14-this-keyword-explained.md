@@ -50,7 +50,7 @@ NÀY ra và gán vào cho biến remaining".
 
 Nếu ở phía ngoài thì rất dễ, đoạn mã như sau sẽ chạy mà không gặp vấn đề gì cả:
 
-```javascript 1.6
+```javascript
 let aLineSegment = createLineSegment(5)
 let remaining = aLineSegment.length
 let visualization = ''
@@ -65,7 +65,7 @@ chúng ta cần một thứ đại diện cho "đối tượng mà mình đang �
 `aLineSegment`. Những người tạo ra ngôn ngữ JavaScript sử dụng từ khóa `this` để đại 
 diện cho thứ đó. Như vậy, lỗi của đoạn mã đầu tiên có thể được sử như sau:
 
-```javascript 1.6
+```javascript
 function createLineSegment(len) {
   return {
     length: len,
