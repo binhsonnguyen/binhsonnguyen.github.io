@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      Tái tạo từ khóa this của JavaScript (phần 1)
+title:      Tái tạo từ khóa this của JavaScript (phần 2)
 date:       2017-12-21
 ---
 
-Ở bài trước, tôi đã ép các bạn phải nặn ra từ khóa this như một cách để các câu lệnh 
+Ở [bài trước][previous], tôi đã ép các bạn phải nặn ra từ khóa this như một cách để các câu lệnh 
 trong hàm `print()` dưới đây truy cập được giá trị của thuộc tính `length`. 
 
 ```javascript
@@ -91,3 +91,5 @@ là hạn chế viết kịch bản theo lối như sau, vì nó là một nợ 
 let printer = aLineSegment.print // assign object's method to a variable...
 printer() // ... and call it? don't do it
 ```
+
+[previous]: /2017/12/21/this-keyword-explained.html
