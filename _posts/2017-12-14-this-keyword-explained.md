@@ -63,7 +63,7 @@ console.log(visualization)
 Ở phía bên ngoài, chúng ta chỉ cần `aLineSegment.length`, và nó work. Nhưng ở phía trong, 
 chúng ta cần một thứ đại diện cho "đối tượng mà mình đang ở trong" để sử dụng thay cho
 `aLineSegment`. Những người tạo ra ngôn ngữ JavaScript sử dụng từ khóa `this` để đại 
-diện cho thứ đó. Như vậy, lỗi của đoạn mã đầu tiên có thể được sử như sau:
+diện cho thứ đó. Có nghĩa là lỗi của đoạn mã đầu tiên có thể được sử như sau:
 
 ```javascript
 function createLineSegment(len) {
