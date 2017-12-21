@@ -23,6 +23,7 @@ function createLineSegment(len) {
       let remaining = length
       while (remaining > 0) {
         visualization += '*'
+        remaining--
       }
       return visualization
     }
