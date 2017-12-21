@@ -14,7 +14,7 @@ cách tự nhiên, hữu cơ.
 thẳng", đối tượng đó có khả năng tự trực quan hóa nó bằng một phương thức `print()`, như
 thế này:
 
-```javascript 1.6
+```javascript
 function createLineSegment(len) {
   return {
     length: len,
