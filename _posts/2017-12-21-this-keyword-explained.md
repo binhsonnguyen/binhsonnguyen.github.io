@@ -74,6 +74,7 @@ function createLineSegment(len) {
       let remaining = this.length
       while (remaining > 0) {
         visualization += '*'
+        remaining--
       }
       return visualization
     }
