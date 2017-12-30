@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 
 services:
   web:
@@ -19,4 +19,4 @@ services:
 networks:
   default:
      external:
-       name: webproxy
+       name: {NETWORK}
