@@ -3,6 +3,7 @@ version: '2'
 services:
   web:
     image: nginx:alpine
+    container_name: blog-web
     environment:
       - VIRTUAL_HOST=${DOMAIN_NAME}
       - LETSENCRYPT_HOST=${DOMAIN_NAME}
@@ -13,6 +14,7 @@ services:
   build:
     command: jekyll build --watch
     image: jekyll/minimal:latest
+    container_name: blog-builder
     volumes:
       - $PWD:/srv/jekyll
 
