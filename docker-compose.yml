@@ -4,6 +4,7 @@ services:
   web:
     image: nginx:alpine
     container_name: blog-web
+    restart: always
     environment:
       - VIRTUAL_HOST=${DOMAIN_NAME}
       - LETSENCRYPT_HOST=${DOMAIN_NAME}
@@ -12,11 +13,12 @@ services:
       - $PWD/vhost.conf:/etc/nginx/conf.d/default.conf:ro
 
   build:
-    command: jekyll build --watch
     image: jekyll/minimal:latest
     container_name: blog-builder
+    restart: always
     volumes:
       - $PWD:/srv/jekyll
+    command: jekyll build --watch
 
 networks:
   default:
