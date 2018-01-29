@@ -9,6 +9,7 @@ function fortune() {
         "không những phản hồi với thay đổi, mà còn phải kiên định có thêm giá trị",
         "không những cá nhân và sự tương tác, mà còn phải cộng đồng chuyên nghiệp",
         "không những cộng tác với khách hàng, mà còn phải đối tác bền chặt",
+        "buffer không liên quan gì đến đạo đức cả, chỉ là khả năng estimate của mình có giới hạn"
     ];
 
     return randomPick(fortunes);
