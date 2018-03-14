@@ -45,7 +45,7 @@ năng cao sang ưu tiên dễ đọc và dễ cộng tác), các nhà phát tri�
 biến tài liệu HTML thành một tài liệu càng ngày càng gần với khái niệm "thuần cấu trúc".
 
 Các best-practice hiện tại luôn khuyến khích nhà phát triển đặt mã trang điểm vào tài liệu
-định kiểu (CSS, Sash, Less, Scss,...). Các ngôn ngữ đặc thù cho việc định kiểu ngày càng
+định kiểu (CSS, Sass, Less, Scss,...). Các ngôn ngữ đặc thù cho việc định kiểu ngày càng
 được phát triển nhiều hơn và hoàn thiện hơn. Cá biệt, một số template engine thế hệ mới
 hoàn toàn hạn chế khả năng nhúng mã định kiểu vào mã mô tả cấu trúc, chẳng hạn như
 [Pug][pug]:
