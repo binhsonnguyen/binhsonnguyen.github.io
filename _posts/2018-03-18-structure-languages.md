@@ -73,8 +73,9 @@ html(lang="en")
 chắc rằng thời gian để đọc hiểu nó vẫn nhanh hơn khá nhiều so với thời gian mà "ngày xưa"
 họ phải bỏ ra để sắp xếp được kiến thức của họ về HTML.
 
-Cá nhân tôi tin rằng theo sau những ngôn ngữ định kiểu, sẽ tới những ngôn ngữ định cấu trúc,
-chúng sẽ được thoát ra ngoài phạm vi của template engine, sẽ được các trình duyệt mặc định
-hỗ trợ, sẽ được thay thế HTML để đưa vào các cuốn sách "làm frontend trong 3 ngày".
+Cá nhân tôi tin rằng theo sau những ngôn ngữ định kiểu, sẽ tới những ngôn ngữ định cấu
+được phát triển và chấp nhận nhiều hơn, chúng sẽ được thoát ra ngoài phạm vi của template
+engine, sẽ được các trình duyệt mặc định hỗ trợ, sẽ được thay thế HTML để đưa vào các cuốn
+sách "làm frontend trong 3 ngày".
 
 [pug]: https://github.com/pugjs/pug
