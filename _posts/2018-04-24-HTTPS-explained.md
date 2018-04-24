@@ -1,5 +1,8 @@
---- layout:     post title:      'HTTPS hay là chuyện se-kju-rịt-chim' date:      
-2018-04-24 ---
+---
+layout:    post
+title:     'HTTPS hay là chuyện se-kju-rịt-chim'
+date:      2018-04-24
+---
 
 
 > *Dịch với đôi chút phóng tác trên tinh thần hoàn toàn tôn trọng sự hài hước từ bài viết
