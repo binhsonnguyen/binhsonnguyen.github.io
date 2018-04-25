@@ -141,5 +141,4 @@ xứng vẫn chậm hơn so với đối xứng, cho nên chúng ta chỉ dùng 
 Giờ thì bạn đã biết làm thế nào mà **HTTPS** hoạt động, và cà phê của bạn cũng đã chín. Bạn
 xứng đáng tế nên hãy đi thưởng thức thôi ;)
 
-[source]:
-https://medium.freecodecamp.org/https-explained-with-carrier-pigeons-7029d2193351
+[source]: https://medium.freecodecamp.org/https-explained-with-carrier-pigeons-7029d2193351
