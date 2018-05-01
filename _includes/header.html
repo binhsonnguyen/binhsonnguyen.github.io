@@ -1,9 +1,11 @@
-<header class="site-header" role="banner">
+<nav class="site-nav">
 
   <div class="wrapper">
     {% if page.title %}
     <a class="site-title" href="{{ '/' | relative_url }}">Home</a>
+    <a class="site-title" href="{{ '/about' | relative_url }}">About</a>
+    <hr noshade size="1" />
     {% endif %}
 
   </div>
-</header>
+</nav>
