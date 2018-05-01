@@ -11,7 +11,10 @@ $on-laptop:        800px !default;
   }
 }
 
-.wrapper {
+nav .wrapper,
+body .wrapper,
+footer .wrapper
+{
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
