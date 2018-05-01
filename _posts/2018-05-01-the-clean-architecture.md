@@ -48,7 +48,7 @@ thứ bị giới hạn trong cơ sở dữ liệu.
 Sơ đồ ở đầu bài viết này là một thử nghiệm để dung hợp tất cả những kiến trúc đã được liệt
 kê ở trên thành một ý tưởng dùng được.
 
-Luật phụ thuộc
+Quy tắc phụ thuộc
 ---
 
 Những vòng tròn đồng  tâm biểu thị những vùng phần mềm khác nhau. Nói chung, càng vào
