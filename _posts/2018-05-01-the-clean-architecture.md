@@ -6,7 +6,7 @@ date:      2018-05-01
 
 > *Dịch từ bài viết [The Clean Architecture][source] của tác giả Robert C. Martin hay còn 
 được biết đến rộng rãi với tên "Uncle" Bob. "Bác Bob" hiện tại là cựu nhân viên của 8th 
-Light.*
+Light. Bài viết này cũng là một chương trong cuốn sách cùng tên của ông.*
 
 ![](/resource/posts/2018-05-01-the-clean-architecture/1.jpg)
 
