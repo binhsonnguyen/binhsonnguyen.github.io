@@ -4,5 +4,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .idea
+*.iml
+*/.DSStore
 vendor
 binhsonnguyen.com.xcodeproj/
