@@ -9,7 +9,9 @@ Ghi chú: Phần dưới đây là bài dịch Phụ lục B của cuốn _[Appr
 ---
 
 > Ghi chú
+>
 > Tôi đã đăng nội dung này lên blog của mình  vào ngày 22 tháng 8 năm 2007. Lời kêu gọi hành động này nhằm vào những người có khả năng thuê người học nghề và tổ chức chương trình học nghề. Ngay cả khi bạn không sở hữu sức mạnh này, tôi hy vọng bạn có thể giữ những lời này trong tâm trí khi bạn trải qua những năm tháng học nghề.
+>
 > — Dave Hoover
 
 Tại Hội nghị Agile 2007 tuần trước, tôi lẻn vào nghe 30 phút cuối cùng trong bài nói chuyện của Bác Bob về Nghề Thủ công và Tinh thần Nhà nghề. Bình thường khi bác nói về Nghề Thủ công, bác hay nói các tiểu tiết trứng rận mạt sạn sát mặt đất trong việc làm thủ công, chẳng hạn như các hành dụng và công cụ cụ thể, nhưng hôm ấy bác đã dành hẳn một trang slide về trình bày về hoạt động học việc. Bác nhá qua một chút về thực trạng rằng việc hầu hết các trường đại học không trang bị cho sinh viên tốt nghiệp đủ kỹ năng để cho phép họ bàn giao phần mềm đủ chất lượng từ ngày đầu tiên, chưa kể đến số lượng lớn những người ngoài ngành mới nhảy vào tham gia lĩnh vực phát triển phần mềm và thậm chí còn chưa bao giờ được tham gia vào những khóa khoa-học-máy-tính-không-đầy-đủ mà Bob đang đề cập đến . Bob khẳng định rằng chúng ta cần phải đào tạo nghề cả cho những người trẻ, những sinh viên tốt nghiệp lẫn người mới vào nghề. Ông khẳng định rằng điều kiện học tập hiệu quả nhất là một nơi có số lượng nhỏ những người học nghề làm việc cùng với một số còn ít hơn các thợ bạn - những người đang nhận hướng dẫn từ một bậc thầy. Tôi đã nghe như hát hay cho đến khi Bob thăm dò trong khán giả xem có bất cứ ai đã từng làm việc trong môi trường kiểu đó chưa. Tôi tự hào giơ tay lên, nhưng rồi lồng ngực tôi lõm cả vào khi nhìn quanh và nhận ra mình là người duy nhất giơ tay.
@@ -25,6 +27,9 @@ Hơn nữa, người học việc không nhất thiết phải là người có 
 Mong các bạn xem xét việc lập một khóa học việc tại tổ chức của mình. Tôi tin rằng học việc là niềm hy vọng tốt nhất mà chúng ta có để giải quyết sự thiếu hụt nhân tài cho nghành công nghiệp.
 
 > Tôi đã may mắn được học tại một trường đại học lớn, nơi tôi học được nhiều lý thuyết (sau này thì ít lý thuyết hơn). Tuy nhiên, thứ thực sự mang đến kinh nghiệm lại là chương trình học việc tôi đã được tham gia. Một trong những người đã tốt nghiệp qua khóa đó đã hướng dẫn tôi. Anh ấy không hẳn đã dạy tôi điều gì, nhưng đã chỉ cho tôi vài ví dụ về tư duy của một lập trình viên giỏi. Làm việc với anh ấy hàng tháng, tôi đã bị thuyết phục bởi nhiều kiến thức thực tế về thiết kế, viết mã và gỡ lỗi hơn bất kỳ khóa học nào có thể truyền đạt.
+>
 > Sau đó, tôi quyết định khởi nghiệp ở London, nơi tôi thực hiện một khóa học việc khác. Sếp mới của tôi chỉ ra rằng phát triển phần mềm là vấn đề về con người hơn là về công nghệ. Anh ấy đã giúp tôi hiểu khía cạnh kinh doanh của ngành công nghiệp này và dạy tôi cách gây dựng các mối quan hệ cá nhân từ  nền tảng của sức mạnh kỹ thuật.
+>
 > Tôi đã “tốt nghiệp” từ hai khóa học việc rất khác nhau này và trở thành một nhà phát triển tốt hơn, hơn rất nhiều so với khi mới bắt đầu. Và với kinh nghiệm đó tôi trở thành một người đi theo đạo lý rằng làm việc với các bậc thầy là cách tốt nhất để học nghề.
-> — Dave Thomas, Software Craftsmanship, Pete McBeen, tr. xiv.
+>
+> — Dave Thomas, _Software Craftsmanship_, Pete McBeen, tr. xiv.
