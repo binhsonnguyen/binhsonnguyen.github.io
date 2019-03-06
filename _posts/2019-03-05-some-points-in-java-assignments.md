@@ -14,7 +14,7 @@ những lời từ chối compile trông rất kỳ lạ.
 
 Mời các bạn theo dõi khối mã kèm comment dưới đây để tìm hiểu.
 
-```
+```java
 // Number litleral luôn được coi như giá trị kiểu `int`, phép gán sau hợp lệ:
 int i1 = 3;
 
