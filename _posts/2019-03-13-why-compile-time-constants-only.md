@@ -6,17 +6,19 @@ date:       2019-03-13
 
 Trong hầu hết các ngôn ngữ lập trình biên dịch có lệnh rẽ nhánh `switch`, hành dụng như sau sẽ bị *từ chối biên dịch*:
 
-    biến mong_muốn(String) = "bar"
-    switch (tham_số(String) = hỏi_người_dùng()) {
-      case mong_muốn:
-        hoan_hô()
-        break
-      case "bar":
-        khích_lệ()
-        break
-      case default:
-        thông_báo_cái_gì_đó()
-    }
+```java
+biến mong_muốn(String) = "bar"
+switch (tham_số(String) = hỏi_người_dùng()) {
+  case mong_muốn:
+    hoan_hô()
+    break
+  case "bar":
+    khích_lệ()
+    break
+  case default:
+    thông_báo_cái_gì_đó()
+}
+```
 
 Bỏ qua thứ ngôn ngữ mã giả dở hơi mà tôi mới phịa ra, mong bạn bằng cách nào đó (chạy thử với mã thật của ngôn ngữ bạn yêu thích chẳng hạn) phát hiện ra rằng lỗi nằm ở *dòng 3*, khi tôi mô tả một `case` dựa theo biến `mong_muốn`.
 
@@ -31,37 +33,41 @@ Chúng ta cần xem xem *compiler* đã *compile* như thế nào, để rồi n
 
 Vậy hãy tạo ra một đoạn mã tương tự, nhưng compilable:
 
-    String temp = "";
-    switch (temp) {
-      case "foo":
-        break;
-      case "bar":
-        break;
-      default:
-        break;
-    }
+```java
+String temp = "";
+switch (temp) {
+  case "foo":
+    break;
+  case "bar":
+    break;
+  default:
+    break;
+}
+```
 
 Compile và sử dụng một công cụ decompile nào đó để soi vào *compiled code*. Ở đây tôi dùng ngôn ngữ Java với Jetbrains Java Decompiler và nhận được kết quả decompile như sau:
 
-    String temp = "";
-    byte var3 = -1;
-    switch(temp.hashCode()) {
-    case 97299:
-      if (temp.equals("bar")) {
-        var3 = 1;
-      }
-      break;
-    case 101574:
-      if (temp.equals("foo")) {
-        var3 = 0;
-      }
-    }
-    
-    switch(var3) {
-      case 0:
-      case 1:
-      default:
-    }
+```java
+String temp = "";
+byte var3 = -1;
+switch(temp.hashCode()) {
+case 97299:
+  if (temp.equals("bar")) {
+    var3 = 1;
+  }
+  break;
+case 101574:
+  if (temp.equals("foo")) {
+    var3 = 0;
+  }
+}
+
+switch(var3) {
+  case 0:
+  case 1:
+  default:
+}
+```
 
 Chưa cần quan tâm đến lý do của lệnh `if` lồng trong mỗi case. Ta đã thấy ngay rằng lệnh `switch` nguyên thủy dựa trên biến String đã được chuyển thể thành dựa trên biến kiểu *byte*. Việc chuyển thể này cần có *hashCode* của giá trị của *case*.
 
@@ -73,15 +79,17 @@ Câu trả lời là tốc độ, so sánh đơn thuần 2 byte với nhau nhanh
 
 Các ngôn ngữ thực thi trên môi trường *.NET* thì đưa tất cả các case vào một kiểu dữ liệu *Map* và lợi dụng cơ chế getValue để giấu lời gọi đến *getHashCode* đi:
 
-    Dictionary dictionary1 = new Dictionary(6);
-    dictionary1.Add("foo", 0);
-    dictionary1.Add("bar", 1);
-    
-    int num1 = dictionary1.getValue(temp)
-    
-    switch (num1) {
-      case 0: return
-      case 1: return;
-    }
+```c#
+Dictionary dictionary1 = new Dictionary(6);
+dictionary1.Add("foo", 0);
+dictionary1.Add("bar", 1);
+
+int num1 = dictionary1.getValue(temp)
+
+switch (num1) {
+  case 0: return
+  case 1: return;
+}
+```
 
 Nguyên lý ở đây tương tự, *key của các entry trong map là không được bị thay đổi trong runtime*, do đó các giá trị case phải là hằng đoán được tại compile-time.
