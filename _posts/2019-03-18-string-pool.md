@@ -91,8 +91,7 @@ System.out.println(System.identityHashCode(s2)); // số Y != X
 
 Biến `s1` tham chiếu tới hằng chuỗi nằm trong *Hồ*. Trong trường hợp còn lại, `s2` tham chiếu tới một đối tượng kiểu *String* được tạo ra trong *Đống*, và đối tượng này có thuộc tính tham chiếu tới hằng chuỗi đang nằm trong *Hồ:*
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_26A94F394E38E9B676EBCC2B7D2D074EFEEF5AA7196D05CFF158EF98895DB824_1552875563515_IMG_2028.JPG)
-
+<img src="/resource/posts/2019-03-18-string-pool/string-pool.jpg" width="790px" height="519px" align="center" >
 
 Hai biến (s1 và s2) tham chiếu tới 2 nơi khác nhau, điều đó có thể được kiểm tra bằng `System.``*identityHashCode*`, nhưng cuối cùng chúng đều đi tới chung một hằng chuỗi, điều đó có thể được kiểm tra bằng `String[hashCode]`:
 
