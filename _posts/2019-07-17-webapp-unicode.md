@@ -14,11 +14,11 @@ Spring MVC và database MySQL, các vấn đề được nhắc đến là chung
 
 Bạn có *model* như thế này.
 
-<img src="/resource/posts/2019-07-17-webapp-unicode/01.jpg" align="center" >
+<img src="/resource/posts/2019-07-17-webapp-unicode/01.jpg" width="427px" height="207px" align="center" >
 
 Nhưng bạn nhận được kết quả như thế này:
 
-<img src="/resource/posts/2019-07-17-webapp-unicode/02.jpg" align="center" >
+<img src="/resource/posts/2019-07-17-webapp-unicode/02.jpg" width="392px" height="186px" align="center" >
 
 Là vì *View* của bạn có nội dung như thế này:
 
@@ -67,7 +67,7 @@ Bạn có view template như thế này:
 
 Nhưng bạn nhận được view như thế này:
 
-<img src="/resource/posts/2019-07-17-webapp-unicode/03.jpg" align="center" >
+<img src="/resource/posts/2019-07-17-webapp-unicode/03.jpg" width="395px" height="183px" align="center" >
 
 
 Nếu bạn đã xử lý vấn đề encoding trong lúc render như ở trên rồi, thì có thể vấn
@@ -89,7 +89,7 @@ public ITemplateResolver templateResolver() {
 
 Giả sử cần submit form sau:
 
-<img src="/resource/posts/2019-07-17-webapp-unicode/04.jpg" align="center" >
+<img src="/resource/posts/2019-07-17-webapp-unicode/04.jpg" width="388px" height="159px" align="center" >
 
 Tầng giao vận TCP/IP không quan tâm với bảng mã, nó đơn giản và vận chuyển gói
 tin, **từng byte một**. Phần lớn web server, trừ khi là web server do bạn tự
@@ -98,7 +98,7 @@ viết, decode các bytes này để có các parametter theo lối như thể r
 decode ra dưới con mắt của bảng mã UTF-8 (trớ trêu rằng, phần lớn các ngôn ngữ
 lập trình làm như thế), bạn sẽ nhận được kết quả không mong muốn.
 
-<img src="/resource/posts/2019-07-17-webapp-unicode/05.jpg" align="center" >
+<img src="/resource/posts/2019-07-17-webapp-unicode/05.jpg" width="238px" height="85px" align="center" >
 
 Cách xử lý luôn luôn là encode chuỗi ký tự ngược lại thành dòng bytes (theo bảng
 mã ISO-8859-1, tất nhiên), và sau đó decode lại theo bảng mã UTF-8. Cho dù là thủ
@@ -146,15 +146,15 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
 
 Bạn có form như thế này:
 
-<img src="/resource/posts/2019-07-17-webapp-unicode/06.jpg" align="center" >
+<img src="/resource/posts/2019-07-17-webapp-unicode/06.jpg" width="375px" height="185px" align="center" >
 
 Entity ngon nghẻ như thế này:
 
-<img src="/resource/posts/2019-07-17-webapp-unicode/07.jpg" align="center" >
+<img src="/resource/posts/2019-07-17-webapp-unicode/07.jpg" width="444px" height="123px" align="center" >
 
 Vào tới database thì loạn cào cào hết cả:
 
-<img src="/resource/posts/2019-07-17-webapp-unicode/08.jpg" align="center" >
+<img src="/resource/posts/2019-07-17-webapp-unicode/08.jpg" width="772px" height="129px" align="center" >
 
 Hầu hết các client của các dbms, khi kết nối tới dbms server, đều chọn mặc định
 một bảng mã để làm việc với nhau. “Mặc định” này đôi khi là một giá trị cố định,
