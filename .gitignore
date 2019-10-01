@@ -2,6 +2,7 @@ Gemfile.lock
 _site
 .env
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
 .idea
 *.iml
