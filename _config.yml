@@ -3,13 +3,18 @@ email: son@binhsonnguyen.com
 description:
 
 baseurl: ""
-url: "http://binhsonnguyen.com"
+url: "https://binhsonnguyen.com"
 github_username: binhsonnguyen
 
 # Build settings
 markdown: kramdown
+
 future: true
+
 plugins:
+  - jekyll-redirect-from
+
+whitelist:
   - jekyll-redirect-from
 
 # Liquid
